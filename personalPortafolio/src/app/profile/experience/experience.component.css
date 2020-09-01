@@ -89,9 +89,10 @@
 
       .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
         position: relative;
-        background: #1b4c584d;
+        background: #07577710;
         padding: 1.5em;
         margin-left: 60px;
+        margin-right: 2rem;
         -webkit-background-clip: padding-box;
         -moz-background-clip: padding;
         background-clip: padding-box; }
