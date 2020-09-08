@@ -1,12 +1,8 @@
 // Add your javascript here
 // Don't forget to add it into respective layouts where this js file is needed
 
-//menu burger
-$('.navbar-collapse a').on('click', function(){
-  if ( $( '.navbar-collapse' ).hasClass('in') ) {
-      $('.navbar-toggle').click();
-  }
-});
+
+
 
 $(document).ready(function() {
   AOS.init( {
