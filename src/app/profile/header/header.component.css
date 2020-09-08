@@ -83,3 +83,23 @@
         }
 
 }
+@media (max-width:650px){
+
+    .logoKh{
+        width: 12%;
+        padding:.5rem;
+        position: fixed;
+        top: -0.7rem;
+        text-align: center;
+        left:2%;
+        transform: translate(-50%);
+        cursor: pointer;
+        }
+
+    .mainNav li{
+        font-size:1.2rem;
+        background-color: #fff;
+
+        }
+
+    }
