@@ -1,6 +1,24 @@
 // Add your javascript here
 // Don't forget to add it into respective layouts where this js file is needed
 
+//menu burger
+$(document).ready(function () {
+
+  $('.first-button').on('click', function () {
+
+    $('.animated-icon1').toggleClass('open');
+  });
+  $('.second-button').on('click', function () {
+
+    $('.animated-icon2').toggleClass('open');
+  });
+  $('.third-button').on('click', function () {
+
+    $('.animated-icon3').toggleClass('open');
+  });
+});
+
+
 $(document).ready(function() {
   AOS.init( {
     // uncomment below for on-scroll animations to played only once
