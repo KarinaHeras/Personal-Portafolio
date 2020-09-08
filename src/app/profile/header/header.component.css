@@ -8,7 +8,7 @@
   transform: translate(-50%);
   cursor: pointer;
   }
-  @media (min-width:650px){
+  @media (min-width:350px){
 
     .logoKh{
         width: 12%;
