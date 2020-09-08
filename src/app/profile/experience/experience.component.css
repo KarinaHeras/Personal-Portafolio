@@ -153,7 +153,21 @@
       }
 
 
-      @media screen and (min-width:  560px){
+      @media (min-width:  560px){
+      .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
+        width: 30px;
+        height: 30px;
+      }
+    }
+
+    @media (min-width:  350px){
+      .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
+        width: 30px;
+        height: 30px;
+      }
+    }
+
+    @media (min-width:  760px){
       .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
         width: 30px;
         height: 30px;
