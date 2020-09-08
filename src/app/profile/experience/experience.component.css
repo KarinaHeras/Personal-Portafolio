@@ -153,4 +153,9 @@
       }
 
 
-
+      @media screen and (max-width: 360px){
+      .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
+        width: 30px;
+        height: 30px;
+      }
+    }

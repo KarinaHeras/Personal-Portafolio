@@ -154,7 +154,7 @@
 
       @media (min-width:350px){
 
-      .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
+       .timeline-icon {
         display: block;
         width: 30px;
         height: 30px;
