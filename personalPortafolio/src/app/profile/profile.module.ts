@@ -2,7 +2,6 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { SnotifyModule, SnotifyService, ToastDefaults } from 'ng-snotify';
-import { NgxSpinnerModule } from '../../../node_modules/ngx-spinner';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { EducationComponent } from './education/education.component';
@@ -21,7 +20,6 @@ import { SkillsComponent } from './skills/skills.component';
     CommonModule,
     FormsModule,
     SnotifyModule,
-    NgxSpinnerModule
   ],
   declarations: [
     ProfileComponent,
