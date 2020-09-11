@@ -1,0 +1,74 @@
+.logoKh{
+  width: 10%;
+  padding:.5rem;
+  position: fixed;
+  top: 0.3rem;
+  text-align: center;
+  right: 92%;
+  transform: translate(-50%);
+  cursor: pointer;
+  }
+  @media (min-width:650px){
+
+    .mainNav li{
+        font-size:1.2rem;
+        background-color: #fff;
+
+        }
+
+    }
+
+@media(min-width:1000px){
+
+    .menu-icon{
+        display: none;
+        }
+
+    h1{
+        font-size: 1.8rem;
+        }
+
+    .logoKh{
+        left: 9%;
+        background-color: transparent;
+        z-index: 3;
+        width: 4%;
+        top: 0.5rem;
+        }
+
+
+
+    .mainNav{
+        width: 100%;
+        height: auto;
+        position: fixed;
+        top: 0;
+        border-top: 1px solid transparent;
+        background-color: #fff;
+
+        text-align: center;
+        color: rgb(19, 18, 18);
+        z-index: 2;
+        }
+
+    .mainNav ul{
+      background-color: #fff;
+        display: flex;
+        justify-content: flex-end;
+        width: 90%;
+        }
+
+    .mainNav li{
+      background-color: #fff;
+
+        padding: 20px;
+        cursor:pointer;
+        }
+
+    .mainNav li:first-child{
+        padding-top: 20px;
+        background-color: #fff;
+
+        }
+
+}
