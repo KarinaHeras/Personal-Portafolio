@@ -1,11 +1,9 @@
 .logoKh{
-  width: 10%;
+  width: 10vw;
   padding:.5rem;
-  position: fixed;
+  display: block;
   top: 0.3rem;
-  text-align: center;
-  right: 92%;
-  transform: translate(-50%);
+  left:2%;
   cursor: pointer;
   }
   @media (min-width:650px){
@@ -15,10 +13,18 @@
         background-color: #fff;
 
         }
+        .logoKh{
+          width: 8vw;
+          padding:.5rem;
+          display: block;
+          top: 0.3rem;
+          left:2%;
+          cursor: pointer;
+          }
 
     }
 
-@media(min-width:350px){
+@media(min-width:1000px){
 
     .menu-icon{
         display: none;
@@ -29,10 +35,9 @@
         }
 
     .logoKh{
-        left: 9%;
-        background-color: transparent;
+        right: 4%;
         z-index: 3;
-        width: 4%;
+        width: 4vw;
         top: 0.5rem;
         }
 
