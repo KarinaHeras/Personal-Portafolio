@@ -4,7 +4,7 @@ const app = express()
 app.use(express.static('./personalPortafolio/dist/personalPortafolio'));
 
 app.get('/*', function(req, res) {
-  res.sendFile('index.html', {root: 'personalPortafolio/dist/personalPortafolio/'}
+  res.sendFile('index.html', {root: './personalPortafolio/dist/personalPortafolio/'}
 );
 });
 
