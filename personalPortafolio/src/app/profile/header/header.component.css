@@ -35,9 +35,9 @@
         }
 
     .logoKh{
-        right: 4%;
         z-index: 3;
-        width: 4vw;
+        display: block;
+        width: 3.5vw;
         top: 0.5rem;
         }
 

@@ -58,8 +58,8 @@
 
       .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
         display: block;
-        width: 40px;
-        height: 40px;
+        width: 28px;
+        height: 28px;
         background: rgb(21, 70, 95);
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
@@ -153,4 +153,21 @@
       }
 
 
+      @media screen and (max-width: 768px)
+      {
+        .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
 
+        width: 37px;
+        height: 37px;
+      }
+    }
+
+
+    @media screen and (max-width: 1000px){
+      .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
+        width: 45px;
+        height: 45px;
+      }
+
+
+    }
