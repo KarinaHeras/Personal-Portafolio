@@ -2,9 +2,7 @@
   "name": "personal-portafolio",
   "version": "0.0.0",
   "scripts": {
-    "dev":"angular-scripts start",
-    "start": " node serve.js", 
-    "heroku-postbuild": "ng build --prod"
+    "start": " node serve.js"
   },
   "private": true,
   "dependencies": {
