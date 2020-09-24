@@ -2,8 +2,9 @@
   "name": "personal-portafolio",
   "version": "0.0.0",
   "scripts": {
+    "dev":"angular-scripts start",
     "start": "serve -s build", 
-    "heroku-postbuild": "ng build"
+    "heroku-postbuild": "ng build --prod"
   },
   "private": true,
   "dependencies": {
