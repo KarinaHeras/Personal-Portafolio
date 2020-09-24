@@ -20,9 +20,11 @@
     "@angular/platform-browser-dynamic": "~9.1.9",
     "@angular/router": "~9.1.9",
     "express": "^4.17.1",
+    "heroku": "^7.43.2",
     "ng-snotify": "^9.0.1",
     "ngx-spinner": "^10.0.1",
     "rxjs": "~6.5.4",
+    "serve": "^11.3.2",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
   },
