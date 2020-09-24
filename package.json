@@ -2,7 +2,8 @@
   "name": "personal-portafolio",
   "version": "0.0.0",
   "scripts": {
-    "start": "node server.js"
+    "start": "serve -s build", 
+    "heroku-postbuild": "npm run build"
   },
   "private": true,
   "dependencies": {
