@@ -2,7 +2,7 @@
   "name": "personal-portafolio",
   "version": "0.0.0",
   "scripts": {
-    "start": " node serve.js"
+    "start": "node server.js"
   },
   "private": true,
   "dependencies": {
