@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev":"angular-scripts start",
-    "start": "serve -s build", 
+    "start": " node serve.js", 
     "heroku-postbuild": "ng build --prod"
   },
   "private": true,
