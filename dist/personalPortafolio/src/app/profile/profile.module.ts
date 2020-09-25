@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { SnotifyModule, SnotifyService, ToastDefaults } from 'ng-snotify';
 import { AboutComponent } from './about/about.component';
-import { ContactComponent } from './contact/contact.component';
 import { EducationComponent } from './education/education.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { FooterComponent } from './footer/footer.component';
@@ -32,7 +31,6 @@ import { SkillsComponent } from './skills/skills.component';
     ExperienceComponent,
     EducationComponent,
     ReferenceComponent,
-    ContactComponent,
     ProjectsComponent
   ],
   providers: [
